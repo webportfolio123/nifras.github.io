@@ -1,0 +1,244 @@
+@media only screen and (max-width:1400px) {
+
+    .home .image img {
+        height: 35rem;
+        width: 35rem;
+    }
+
+    .home p {
+        font-size: 15px;
+
+    }
+
+    p.typewriter {
+        font-size: 42px;
+    }
+
+    .home h3 {
+        font-size: 19px;
+    }
+
+    .home h1 {
+        font-size: 25px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        padding: 1rem 4rem;
+    }
+
+}
+
+
+@media only screen and (max-width:991px) {
+
+    .textappearhome,
+    .textappearabout,
+    .textappearedu,
+    .textappearpor,
+    .textappearcon {
+        display: flex;
+        transition: 1s;
+        color: black;
+        justify-content: center;
+        margin-bottom: -4px;
+        margin-top: -8px;
+    }
+
+    .mobilefooter {
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    /* header.toggle {
+        left: 0%;
+    } */
+
+    body {
+        padding: 0;
+    }
+
+    .home p {
+        font-size: 13px;
+
+    }
+
+    .home h3 {
+        font-size: 16px;
+    }
+
+    .home h1 {
+        font-size: 18px;
+    }
+
+    p.typewriter {
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (max-width:810px) {
+    .home {
+        padding: 0rem 1rem;
+    }
+
+    .home p {
+        font-size: 13px;
+
+    }
+
+    .home h3 {
+        font-size: 12px;
+    }
+
+    .home h1 {
+        font-size: 15px;
+    }
+
+    p.typewriter {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+
+
+    html {
+        font-size: 50%;
+    }
+
+    .home p {
+        font-size: 13px;
+
+    }
+
+    .home h3 {
+        font-size: 12px;
+    }
+
+    .home h1 {
+        font-size: 15px;
+    }
+
+    p.typewriter {
+        font-size: 27px;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .education {
+        padding: 7rem
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+    .contact .row .content {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+    .home {
+        display: block;
+        position: relative;
+    }
+
+    .home .content {
+        width: 100%;
+
+        position: absolute;
+        bottom: 0;
+        left: 55%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding-left: 0;
+    }
+
+    .home .image {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+
+}
+
+@media only screen and (max-width:350px) {
+
+    .home .image img {
+        height: 30rem;
+        width: 30rem;
+    }
+
+    p.typewriter {
+        font-size: 22px;
+    }
+
+    .home .content {
+        bottom: -9%;
+        left: 55%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .home .image {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+
+}
+
+@media only screen and (max-width:400px) {
+
+    /* header {
+        width: 100vw;
+    }
+
+    .heading {
+        margin: 0 3rem;
+    } */
+
+    .about .row .counter .box {
+        width: 100%;
+    }
+
+    .education .box-container .box {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
+        width: 100%;
+    }
+
+    .contact .row form {
+        margin: 3rem 0;
+    }
+
+}
